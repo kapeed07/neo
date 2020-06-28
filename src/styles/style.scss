@@ -1,0 +1,31 @@
+@import './variables.scss';
+
+@each $size, $value in $font {
+    .fnt-#{$size} {
+      font-size: $value !important;
+    }
+}
+
+body {
+    background-color: #e4e6e7;
+    padding: 0;
+    margin: 100px;
+}
+
+.card {
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+    border-radius: 20px;
+    background: #e4e6e7;
+    box-shadow:  5px 5px 10px #c0c1c2,  -5px -5px 10px #ffffff;
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 50px;
+    background: #e4e6e7;
+    box-shadow:  5px 5px 10px #c0c1c2,  -5px -5px 10px #ffffff;
+}
