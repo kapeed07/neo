@@ -8,7 +8,13 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div className="card"></div>
+        <div className="card">
+        <div className="card-inset"></div>
+        </div>
         <div className="circle"></div>
+        <div className="circle">
+        <div className="circle-inset"></div>
+        </div>
       </header>
     </div>
   );
